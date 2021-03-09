@@ -118,7 +118,7 @@ function setup() {
 }
 
 function draw() {
-
+  strokeWeight(0)
   if (snake.isLost()) {
     noLoop()
     alert('you have lost')
